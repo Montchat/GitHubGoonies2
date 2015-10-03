@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9F2AB61BC011AA001A65A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F2AB51BC011AA001A65A3 /* AppDelegate.swift */; };
+		2B9F2ABB1BC011AA001A65A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F2AB91BC011AA001A65A3 /* Main.storyboard */; };
+		2B9F2ABD1BC011AA001A65A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F2ABC1BC011AA001A65A3 /* Assets.xcassets */; };
+		2B9F2AC01BC011AA001A65A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F2ABE1BC011AA001A65A3 /* LaunchScreen.storyboard */; };
+		2B9F2AC81BC011BB001A65A3 /* Goonies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F2AC71BC011BB001A65A3 /* Goonies.swift */; settings = {ASSET_TAGS = (); }; };
+		2B9F2AD01BC015A0001A65A3 /* GooniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F2ACF1BC015A0001A65A3 /* GooniesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2B9F2AD21BC01613001A65A3 /* GoonieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F2AD11BC01613001A65A3 /* GoonieTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		2B9F2AD61BC02197001A65A3 /* GooniesDetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F2AD51BC02197001A65A3 /* GooniesDetailViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B9F2AB21BC011AA001A65A3 /* GitHubGooniesPractice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubGooniesPractice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9F2AB51BC011AA001A65A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B9F2ABA1BC011AA001A65A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B9F2ABC1BC011AA001A65A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9F2ABF1BC011AA001A65A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B9F2AC11BC011AA001A65A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9F2AC71BC011BB001A65A3 /* Goonies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goonies.swift; sourceTree = "<group>"; };
+		2B9F2ACF1BC015A0001A65A3 /* GooniesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooniesTableViewController.swift; sourceTree = "<group>"; };
+		2B9F2AD11BC01613001A65A3 /* GoonieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoonieTableViewCell.swift; sourceTree = "<group>"; };
+		2B9F2AD51BC02197001A65A3 /* GooniesDetailViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooniesDetailViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9F2AAF1BC011AA001A65A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9F2AA91BC011AA001A65A3 = {
+			isa = PBXGroup;
+			children = (
+				2B9F2AB41BC011AA001A65A3 /* GitHubGooniesPractice2 */,
+				2B9F2AB31BC011AA001A65A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9F2AB31BC011AA001A65A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F2AB21BC011AA001A65A3 /* GitHubGooniesPractice2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9F2AB41BC011AA001A65A3 /* GitHubGooniesPractice2 */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F2AB51BC011AA001A65A3 /* AppDelegate.swift */,
+				2B9F2AD11BC01613001A65A3 /* GoonieTableViewCell.swift */,
+				2B9F2ACF1BC015A0001A65A3 /* GooniesTableViewController.swift */,
+				2B9F2AD51BC02197001A65A3 /* GooniesDetailViewController2.swift */,
+				2B9F2AC71BC011BB001A65A3 /* Goonies.swift */,
+				2B9F2AB91BC011AA001A65A3 /* Main.storyboard */,
+				2B9F2ABC1BC011AA001A65A3 /* Assets.xcassets */,
+				2B9F2ABE1BC011AA001A65A3 /* LaunchScreen.storyboard */,
+				2B9F2AC11BC011AA001A65A3 /* Info.plist */,
+			);
+			path = GitHubGooniesPractice2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9F2AB11BC011AA001A65A3 /* GitHubGooniesPractice2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9F2AC41BC011AA001A65A3 /* Build configuration list for PBXNativeTarget "GitHubGooniesPractice2" */;
+			buildPhases = (
+				2B9F2AAE1BC011AA001A65A3 /* Sources */,
+				2B9F2AAF1BC011AA001A65A3 /* Frameworks */,
+				2B9F2AB01BC011AA001A65A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubGooniesPractice2;
+			productName = GitHubGooniesPractice2;
+			productReference = 2B9F2AB21BC011AA001A65A3 /* GitHubGooniesPractice2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9F2AAA1BC011AA001A65A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Joe E.";
+				TargetAttributes = {
+					2B9F2AB11BC011AA001A65A3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B9F2AAD1BC011AA001A65A3 /* Build configuration list for PBXProject "GitHubGooniesPractice2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B9F2AA91BC011AA001A65A3;
+			productRefGroup = 2B9F2AB31BC011AA001A65A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9F2AB11BC011AA001A65A3 /* GitHubGooniesPractice2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9F2AB01BC011AA001A65A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9F2AC01BC011AA001A65A3 /* LaunchScreen.storyboard in Resources */,
+				2B9F2ABD1BC011AA001A65A3 /* Assets.xcassets in Resources */,
+				2B9F2ABB1BC011AA001A65A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9F2AAE1BC011AA001A65A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9F2AD21BC01613001A65A3 /* GoonieTableViewCell.swift in Sources */,
+				2B9F2AD01BC015A0001A65A3 /* GooniesTableViewController.swift in Sources */,
+				2B9F2AD61BC02197001A65A3 /* GooniesDetailViewController2.swift in Sources */,
+				2B9F2AC81BC011BB001A65A3 /* Goonies.swift in Sources */,
+				2B9F2AB61BC011AA001A65A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B9F2AB91BC011AA001A65A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9F2ABA1BC011AA001A65A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B9F2ABE1BC011AA001A65A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9F2ABF1BC011AA001A65A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B9F2AC21BC011AA001A65A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9F2AC31BC011AA001A65A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9F2AC51BC011AA001A65A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GitHubGooniesPractice2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Montchat.GitHubGooniesPractice2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B9F2AC61BC011AA001A65A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GitHubGooniesPractice2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Montchat.GitHubGooniesPractice2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9F2AAD1BC011AA001A65A3 /* Build configuration list for PBXProject "GitHubGooniesPractice2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9F2AC21BC011AA001A65A3 /* Debug */,
+				2B9F2AC31BC011AA001A65A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9F2AC41BC011AA001A65A3 /* Build configuration list for PBXNativeTarget "GitHubGooniesPractice2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9F2AC51BC011AA001A65A3 /* Debug */,
+				2B9F2AC61BC011AA001A65A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B9F2AAA1BC011AA001A65A3 /* Project object */;
+}
